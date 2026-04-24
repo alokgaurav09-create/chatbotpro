@@ -1,7 +1,9 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "chatbot",
+			"path": "../../Users/alokg/OneDrive/Desktop/chatbot"
 		}
-	]
+	],
+	"settings": {}
 }
