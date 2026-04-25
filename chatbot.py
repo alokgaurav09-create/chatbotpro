@@ -32,7 +32,7 @@ if user_input:
             st.write(user_input)
 
         response = client.chat.completions.create(
-            model="meta-llama/llama-4-scout-17b-16e-instruct",
+           model="openai/gpt-oss-120b",
             messages=st.session_state["messages"]
         )
 
