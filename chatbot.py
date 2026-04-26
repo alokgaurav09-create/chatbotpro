@@ -5,7 +5,7 @@ from groq import Groq
 blocked_inputs = ["ignore","credentials","password", "system prompt", "api key", "jailbreak", "bypass"]
 blocked_outputs = ["secret", "api key", "system instructions"]
 
-st.title("💬 Chatbot by Alok")
+st.title("💬 Chatbot by AlokGaurav")
 
 api_key = st.secrets["GROQ_API_KEY"]
 client = Groq(api_key=api_key)
